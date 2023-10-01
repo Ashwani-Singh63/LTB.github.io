@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Learners to Build</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- Nav_Bar -->
+    <nav class=" bg-gray-700 w-[100%] h-[8vh] fixed top-0 my-0 z-10">
+
+        <div class=" flex justify-around mx-5 items-center pt-4 sm:pt-0 lg:pt-4 w-[100%]">
+
+            <div class=" rotate-box w-[50%] lg:w-auto">
+                <h2 class="letter-space text-white text-[15px] sm:text-[20px] md:text-[25px] font-bold">Learners to Build</h2>
+            </div>
+    
+            <div class=" flex items-center justify-center w-[50%] invisible lg:visible">
+    
+                <ul class=" flex justify-evenly items-cente w-[100%] text-white text-[15px] sm:text-[20px] md:text-[25px] font-bold ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#teams">Our Team</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+    
+            </div>
+
+            <div onclick="toggle()" class="burger visible lg:invisible">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </div>
+
+        <div id="toggle-btn" class="bg-gray-700 py-5 hidden">
+            <ul class=" flex flex-col items-center text-white text-[15px] sm:text-[20px] md:text-[25px] font-semibold">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#teams">Our Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Introduction to Learners to Build -->
+    <section class="w-[100%] sm:h-[100vh] h-[70vh] bg-gray-600 flex items-center px-8 sm:px-0 mt-8 sm:mt-8 md:mt-8 justify-evenly flex-col-reverse  flex-wrap lg:flex-row">
+
+        <div class="text-white justify-center items-center">
+
+            <div class="flex justify-center items-center mb-8">
+
+                <a href="https://www.facebook.com/profile.php?id=61551382597390">
+                    <i class="fa-brands fa-facebook h-effect hover:text-red-500 fa-2xl"></i></a>
+
+                <a href="https://www.instagram.com/learnerstobuild/" class="px-8">
+                    <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+
+            </div>
+
+            <div>
+                <h2 class="font-bold md:text-[50px] sm:text[40px] text-[20px] letter-space z-0">Learners to Build</h2>
+            </div>
+
+            <p class="md:text-[20px] sm:text-[15px] text-[12px]" >Learners to Build is an enthusiastic and collaborative team of software developers
+                <br> driven by a shared passion for learning and creating innovative solutions.
+            </p>
+
+        </div>
+
+        <div class=" w-[260px] sm:w-[400px] md::w-[25%] ">
+            <img src="image/logo7.png" alt="Logo">
+        </div>
+
+    </section> 
+
+    <!-- Our Team Member -->
+    <section class="w-[100%] h-[310vh] md:h-[210vh]  xl:h-[160vh] bg-gray-800 flex items-center justify-center flex-col">
+
+        <div class="flex items-center justify-center flex-col">
+
+            <h3 id="teams" class="text-[red]">Teams</h2>
+
+            <h2 class="font-bold text-[40px] text-white">Our Team</h2>
+
+            <div class="my-8 bg-red-700 w-[110px] h-[3px]">
+                  
+            </div>
+
+            <div class="mt-8 mx-auto w-[90%]">
+
+                <div class="flex justify-around flex-col md:flex-row items-center flex-wrap">
+
+                    <div class="mx-10 mb-10 p-2 rounded-md bg-white">
+                        <img src="image/profile-pic (1).png" class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]" alt="">
+                        <p class="text-black font-bold text-center text-[13px] ">Ashwani Singh <br> Front End Developer</p>
+                    </div>
+    
+                    <div class="mx-10 mb-10 p-3 rounded-md bg-white" >
+                        <img src="image/Rishav (1).png" class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]"  alt="">
+                        <p class="text-black font-bold text-center text-[13px]">Rishav Bhattarai<br> Front End Developer</p>
+                    </div>
+                    
+                    <div class="mx-10 mb-10 p-3 rounded-md bg-white" >
+                        <img src="image/Pankaj.jpg" class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]"  alt="">
+                        <p class="text-black font-bold text-center text-[13px]">Pankaj Kr. Kashyap<br> Front End Developer</p>
+                    </div>
+    
+                    <div class="mx-10 mb-10 p-3 rounded-md bg-white">
+                        <img src="image/iqubal.png" class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]"  alt="">
+                        <p class="text-black font-bold text-center text-[13px]">Iqubal Zafar<br> Front End Developer</p>
+                    </div>
+    
+                    <div class="mx-10 mb-10 p-3 rounded-md bg-white">
+                        <img src="image/Abhisekh-01.jpg" class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]"  alt="">
+                        <p class="text-black font-bold text-center text-[13px]">Abhisekh Upadhaya <br> Back End Developer</p>
+                    </div>
+    
+                    <div class="mx-10 mb-10 p-3 rounded-md bg-white">
+                        <img src="image/Zeeshan-01.jpg" class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]" alt="">
+                        <p class="text-black font-bold text-center text-[13px]">Zeeshan Hasssan <br> Back End Developer</p>
+                    </div>
+    
+                    <div class="mx-10 mb-10 p-3 rounded-md bg-white">
+                        <img src="image/rishav-raj-2.png"class="h-[200px] sm:h-[250px]  lg:h-[300px] w-[150px] sm:w-[200px] lg:w-[250px]" alt="">
+                        <p class="text-black font-bold text-center text-[13px]">Rishav Raj <br> Back End Developer</p>
+                    </div>
+    
+                </div>
+            </div>
+
+    </section> 
+
+    <!-- Image Slider -->
+    <section>
+
+    </section>
+
+    <!-- Contact us -->
+    <section class="w-[100%] h-[100vh] flex items-center justify-center bg-gray-600">
+
+        <div class="flex items-center justify-center flex-col ">
+
+            <h3 id="contact" class="text-[red]">Contact Us</h2>
+                
+            <h2 class="font-bold text-[40px] text-white">Contact Us</h2>
+
+            <p class="text-white mt-4">Feel free to contact us through email? <a href="mailto:learnerstobuild@gmail.com"
+                        class="text-[blue] underline">Email me</a></p>
+
+            <div class="flex justify-start items-center mt-8">
+
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=61551382597390"><i
+                                class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+                </div>
+
+                <div class="px-8">
+                        <a href="https://www.instagram.com/learnerstobuild/"><i
+                                class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+                </div>
+                
+            </div>
+
+            <div >
+
+                <form action="" class="enquiry_form flex flex-col items-center justify-center flex-wrap m-8 " >
+
+                    <input type="text" placeholder="Your Name" id="sendername" name="name"  required
+                        class="mt-4 w-[300px] sm:w-[350px] md:w-[450px] lg:w-[650px] h-[50px] px-4 text-[20px] rounded-lg bg-gray-500 text-white">
+    
+                    <input type="email" id="email" name="email" placeholder="Your Email" required
+                        class="mt-4 ml-0 w-[300px] sm:w-[350px] md:w-[450px] lg:w-[650px] h-[50px] px-4  text-[20px] rounded-lg bg-gray-500 text-white">
+    
+                    <input type="text" name="subject" id="subject" placeholder="Your Subject" required
+                        class="mt-4 w-[300px] sm:w-[350px] md:w-[450px] lg:w-[650px] h-[50px] px-4 text-[20px] rounded-lg bg-gray-500 text-white">
+     
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required
+                        class="mt-4 w-[300px] sm:w-[350px] md:w-[450px] lg:w-[650px] h-[100px] px-4 text-[20px] rounded-lg bg-gray-500 text-white"></textarea>
+    
+                    <button class="mt-4 w-[200px] h-[50px] px-4 text-[20px] text-left bg-red-500 text-white rounded-2xl hover:bg-red-700 hover:shadow-black" onclick="sendMessage();">Send Message</button>
+    
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Footer Sectiom -->
+    <footer>
+
+        <div class="bg-gray-500 w-[100%] h-[50px] text-center pt-4">
+
+            <p>
+                Copyright &copy; <strong>Learners to Build</strong>
+            </p>
+
+        </div>
+
+    </footer>
+    
+    <script src="JS/index.js"></script>
+
+</body>
+
+</html>

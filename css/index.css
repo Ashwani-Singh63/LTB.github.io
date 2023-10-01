@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.burger {
+    /* display: none; */
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
+
+
+@font-face {
+    font-family: mokoto;
+    src: url(../fonts/Mokoto\ Demo.ttf);
+}
+  
+h2 {
+    font-family: mokoto;
+    color: darkgreen;
+}
+
+.letter-space {
+    letter-spacing: 5px;
+}
+
+.h-effect {
+    transition: 1s;
+  
+}
+
+
+.rotate-box{
+    animation-name: rotate-box;
+    animation-duration: 1s;
+}
+@keyframes rotate-box {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+.typewriter {
+    /* z-index: -1; */
+    position: absolute;
+    left: 12%;
+    top: 35%;
+    /* Ensures the content is not revealed until the animation */
+    overflow: hidden; 
+    /* The typwriter cursor */
+    border-right: .15em solid red; 
+    /* Keeps the content on a single line */
+    white-space: nowrap;
+    /* Gives that scrolling effect as the typing happens */
+    margin: 0 auto; 
+    /* Adjust as needed */
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(35, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: red; }
+}
+
+@media screen and (max-width: 1024px) {
+    .typewriter {
+        position: static;
+        animation: none;
+        border: none;
+    }
+}
+
+
+/* Start Carouser */
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    /* position: relative; */
+    /* margin: auto; */
+}
+
+/* Hide the images by default */
+.slide {
+    display: none;
+}
+
+.slide-img {
+    border-radius: 5px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+/* fade animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes linear-animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* linear animation */
+.linear-animation {
+    animation-name: linear-animation;
+    animation-duration: 3s;
+}
+
+@keyframes linear-animation {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/* End Carouser */

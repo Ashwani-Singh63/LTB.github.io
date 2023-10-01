@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learners to Build - About Us</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+    
+</head>
+
+<body style="overflow: hidden;">
+    <!-- Nav_Bar -->
+    <nav class="bg-slate-800 w-[100%] h-[8vh] fixed top-0 my-0">
+
+        <div class=" flex justify-around mx-5 items-center pt-4 w-[100%]">
+
+            <div class=" rotate-box w-[50%] lg:w-auto">
+                <h2 class="letter-space text-white text-[15px] sm:text-[20px] md:text-[25px] font-bold">Learners to
+                    Build</h2>
+            </div>
+
+            <div class=" flex items-center justify-center w-[50%] invisible lg:visible">
+
+                <ul
+                    class=" flex justify-evenly items-cente w-[100%] text-white text-[15px] sm:text-[20px] md:text-[25px] font-bold ">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <!-- <li><a href="/index.html#teams">Our Team</a></li>
+                    <li><a href="/index.html#contact">Contact Us</a></li> -->
+                </ul>
+
+            </div>
+
+            <div onclick="toggle()" class="burger visible lg:invisible">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </div>
+
+        <div id="toggle-btn" class="bg-gray-700 py-5 hidden">
+            <ul class=" flex flex-col items-center text-white text-[15px] sm:text-[20px] md:text-[25px] font-semibold">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <!-- <li><a href="/index.html#teams">Our Team</a></li>
+                <li><a href="/index.html#contact">Contact Us</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Introduction to Learners to Build -->
+    <section class="w-[100%] h-[100vh] reltive bg-slate-700 mt-8 overflow-hidden">
+
+        <!-- crausal container -->
+        <div class="slideshow-container absolute top-[12%] flex justify-center mx-auto">
+            <!-- Full-width images with number and caption text -->
+
+            <div class="slides linear-animation flex items-center justify-evenly  flex-col-reverse sm:flex-row ">
+                <!-- <img src="image/Vijay Kedia.png" class="w-[90vw] h-[85vh] slide-img" /> -->
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="https://www.facebook.com/ashwani.singham.1?mibextid=9R9pXO">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="https://www.instagram.com/Ashwani__Singh63/" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Ashwani Singh</h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a Front End developer </p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Ashwani_bg-remove (2).png" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>
+
+            <div class=" slides linear-animation flex items-center justify-between  flex-col-reverse sm:flex-row ">
+                
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="https://www.facebook.com/rishav.raj.79827?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="https://www.instagram.com/rishu_no_baka/" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Rishav Raj </h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a Back End developer, Team Manager</p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Rishav-raj.jpg" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>
+
+            <div class=" slides linear-animation flex items-center justify-between  flex-col-reverse sm:flex-row ">
+                
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="https://www.facebook.com/iqubalzafar.zach?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="https://instagram.com/iqubal.aly?igshid=OGQ5ZDc2ODk2ZA==" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Iqubal Zafar </h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a Front End developer</p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Iqubal-Zafar.jpg" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>
+
+            
+
+            <div class=" slides linear-animation flex items-center justify-between  flex-col-reverse sm:flex-row ">
+                
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="https://www.facebook.com/zeeshan.hassan.566148">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="https://instagram.com/zeeeshaan.7?igshid=OGQ5ZDc2ODk2ZA==" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Zeeshan Hassan </h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a Back End developer </p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Zeeshan.jpg" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>       
+            
+            <div class=" slides linear-animation flex items-center justify-between  flex-col-reverse sm:flex-row ">
+                
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Pankaj Patel </h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a Front End developer </p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Pankaj-Patel.jpg" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>
+
+            <div class=" slides linear-animation flex items-center justify-between  flex-col-reverse sm:flex-row ">
+                
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Abhisekh Upadhaya </h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a Back End developer </p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Abhisekh.jpg" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>
+
+            <div class=" slides linear-animation flex items-center justify-between  flex-col-reverse sm:flex-row ">
+                
+
+                <div class="flex items-center flex-col text-white lg:mx-24 p-2 sm:mt-0 mt-8">
+
+                    <div class="flex justify-center items-center mb-8">
+
+                        <a href="">
+                            <i class="fa-brands fa-facebook fa-2xl h-effect hover:text-red-500"></i></a>
+        
+                        <a href="" class="px-8">
+                            <i class="fa-brands fa-instagram fa-2xl h-effect hover:text-red-500"></i></a>
+    
+                    </div>
+
+                    <h2 class="lg:text-[50px] sm:text-[30px]  text-[23px] text-center" >I am Rishav Bhattarai </h2>
+
+                    <p class="lg:text-[30px] sm:text-[25px] text-[20px] text-center" >I'm a UI/UX designer </p>
+
+                    
+
+                </div>
+
+                <div class="p-4 flex items-center justify-center ">
+                    <img src="image/Rishav-Bhattaraiii.jpg" class="w-[500px] h-[550px]" alt="">
+                </div>
+
+            </div>
+
+            <div class="w-[100%] absolute top-[50%] flex flex-between">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="JS/slides.js"></script>
+
+    <script src="JS/index.js"></script>
+    
+</body>
+
+</html>
